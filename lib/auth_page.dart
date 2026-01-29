@@ -1,3 +1,4 @@
+import 'package:animatedapis/HomePage.dart';
 import 'package:flutter/material.dart';
 
 class AuthPage extends StatefulWidget {
@@ -149,7 +150,7 @@ class _AuthPageState extends State<AuthPage> {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => const HomePage()),
+                    MaterialPageRoute(builder: (_) => HomePage()),
                   );
                 },
                 child: const Padding(
